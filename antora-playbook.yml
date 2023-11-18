@@ -1,0 +1,17 @@
+site:
+  title: Test Antora UI Fetch Timeout
+  url: http://localhost:8080/
+  start_page: test:ROOT:index.adoc
+content:
+  sources:
+  - url: ./
+    branches: HEAD
+    start_path: docs
+asciidoc:
+  attributes:
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+output:
+  dir: ./build

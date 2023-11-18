@@ -1,0 +1,16 @@
+{
+  "name": "antora-ui-fetch-timeout",
+  "version": "1.0.0",
+  "description": "A demo repo for an Antora UI fetch timeout problem",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@antora/cli": "3.1.4",
+    "@antora/site-generator": "3.1.4"
+  }
+}

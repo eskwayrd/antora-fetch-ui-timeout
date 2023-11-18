@@ -1,0 +1,5 @@
+name: test
+title: Test Antora UI Fetch Timeout
+version: ~
+nav:
+- modules/ROOT/nav.adoc

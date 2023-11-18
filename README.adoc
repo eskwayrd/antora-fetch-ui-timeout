@@ -1,0 +1,20 @@
+= Demo repo to test Antora UI fetch timeout
+
+When there are many images in an Antora project, the UI can fail to fetch with a timeout error.
+
+This repo contains a very simple Antora project with a single page and a single image.
+
+The `generate_images.js` script makes copies of the one included image, by default 80,000 times:
+
+[source]
+----
+node generate_images.js 50000
+----
+
+Then, when Antora runs, an error should report that the UI could not be
+fetched due to a timeout:
+
+[source]
+----
+npx antora --staxcktrace --fetch antora-playbook.yml
+----

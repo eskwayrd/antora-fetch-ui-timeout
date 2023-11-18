@@ -1,0 +1,4 @@
+= Antora UI Fetch Timeout Demonstration
+
+Follow the instructions in the `README.adoc` to generate enough images to
+cause timeouts when Antora fetches its UI.

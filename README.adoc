@@ -8,7 +8,7 @@ The `generate_images.js` script makes copies of the one included image, by defau
 
 [source]
 ----
-node generate_images.js 50000
+node generate_images.js <number of copies>
 ----
 
 Then, when Antora runs, an error should report that the UI could not be
